@@ -1,0 +1,56 @@
+# vsim -c -voptargs="+acc" checkpoint1 -do "run -all" 
+# Start time: 10:17:29 on Nov 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.checkpoint1(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fgets'.
+#    Time: 0 ns  Iteration: 0  Instance: /checkpoint1 File: checkpoint1.sv Line: 35
+# run -all
+# No file name is given by user. Using default file: input_file.txt
+#  12 0 0 0x01FF49000
+# 
+#  13 1 2 0X01FF78980
+# 
+#  15 2 0 0x10FF23400
+# 
+#  22 3 1 0x01FC56000
+# 
+#  25 4 1 0x01CF48900
+# 
+#  29 5 2 0x10ACF0800
+# 
+#  31 6 1 0x10BCF8800
+# 
+#  33 7 0 0x01FF97800
+# 
+#  37 8 1 0x1010FFD00
+# 
+#  42 9 1 0x1028F9000
+# 
+#  52 5 2 0x01FF95000
+# 
+#  71 1 2 0x10FFA8500
+# 
+#   
+# 
+#  
+# fine end
+# File closed.
+# ** Note: $finish    : checkpoint1.sv(58)
+#    Time: 0 ns  Iteration: 0  Instance: /checkpoint1
+# End time: 10:17:31 on Nov 10,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
